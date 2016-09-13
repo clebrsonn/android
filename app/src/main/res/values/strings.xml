@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Headache</string>
+    <string name="action_settings">Settings</string>
+    <string name="erroInsercao">Erro ao inserir Registro</string>
+    <string name="sDataInicio">Data Início</string>
+    <string name="sHoraInicio">Hora que Iniciou</string>
+    <string name="sDataFim">Data Término</string>
+    <string name="sHoraFim">Hora que Parou</string>
+    <string name="sIntensidade">Intensidade</string>
+    <string name="btnSaveHead">Salvar</string>
+    <string name="btnUpdateHead">Editar</string>
+
+    <string-array name="intensidade_array">
+        <item>Fraca</item>
+        <item>Média</item>
+        <item>Forte</item>
+    </string-array>
+
+
+</resources>
