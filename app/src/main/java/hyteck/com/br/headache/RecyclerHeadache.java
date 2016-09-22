@@ -39,6 +39,7 @@ public class RecyclerHeadache extends RecyclerView.Adapter<RecyclerHeadache.Recy
     public void onBindViewHolder(RecyclerHeadacheViewHolder holder, int position) {
         Headache headache = mList.get(position);
         holder.viewNome.setText(headache.getIntensidade());
+        holder.viewDate.setText(headache.getDataInicio());
 
 
     }
@@ -51,11 +52,13 @@ public class RecyclerHeadache extends RecyclerView.Adapter<RecyclerHeadache.Recy
     protected class RecyclerHeadacheViewHolder extends RecyclerView.ViewHolder {
 
         protected TextView viewNome;
+        protected TextView viewDate;
 
         public RecyclerHeadacheViewHolder(final View itemView) {
             super(itemView);
 
-            viewNome = (TextView) itemView.findViewById(R.id.textview_nome);
+            viewNome = (TextView) itemView.findViewById(R.id.textview_intensidade);
+            viewDate = (TextView) itemView.findViewById(R.id.textview_data);
 
             //Setup the click listener
             itemView.setOnClickListener(v -> {
