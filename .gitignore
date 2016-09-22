@@ -37,3 +37,4 @@ captures/
 /local.properties
 /.idea/*
 .DS_Store
+.idea/

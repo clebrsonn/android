@@ -3,4 +3,9 @@
     <string name="nome_aluno">Nome</string>
     <string name="questao">Questão</string>
     <string name="nome_curso">Curso</string>
+    <string name="btn_sel_curso">Selecionar Curso</string>
+    <string name="bsi">Bacharelado em Sistema da Informação</string>
+    <string name="bcc">Bacharelado em Ciência da Computação</string>
+    <string name="lc">Licenciatura em informática</string>
+    <string name="shit">Não veio nenhum dado</string>
 </resources>

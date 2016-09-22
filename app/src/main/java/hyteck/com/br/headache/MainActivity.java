@@ -13,6 +13,8 @@ import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.Toast;
 
+import java.util.Date;
+
 import hyteck.com.br.headache.dao.HeadacheDao;
 import hyteck.com.br.headache.entity.Headache;
 
@@ -95,6 +97,11 @@ public class MainActivity extends AppCompatActivity {
 
             btnSaveHeadache.setText(R.string.btnSaveHead);
 
+            Date date = new Date();
+
+
+
+//            inputDTini.setText(T);
 
             btnSaveHeadache.setOnClickListener(view -> {
                         Headache headache = new Headache();
