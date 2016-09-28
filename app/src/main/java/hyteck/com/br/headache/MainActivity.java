@@ -13,6 +13,7 @@ import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.Toast;
 
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 import hyteck.com.br.headache.dao.HeadacheDao;
@@ -98,10 +99,12 @@ public class MainActivity extends AppCompatActivity {
             btnSaveHeadache.setText(R.string.btnSaveHead);
 
             Date date = new Date();
+            SimpleDateFormat df;
+            df = new SimpleDateFormat("dd/MM/yyyy");
 
-
-
-//            inputDTini.setText(T);
+            inputDTini.setText(df.format(date));
+            df = new SimpleDateFormat("HH:mm");
+            inputHRini.setText(df.format(date));
 
             btnSaveHeadache.setOnClickListener(view -> {
                         Headache headache = new Headache();

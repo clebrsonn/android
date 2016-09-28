@@ -1,1 +1,1 @@
-include ':app', ':deinfo-helpdesk'
+include ':app', ':deinfo-helpdesk', ':atletas'
